@@ -17,7 +17,6 @@ var streamFile = function (filename, stream) {
 
 describe('gulp-todoist streaming', function () {
 	it('should have nothing to report', function (cb) {
-		var files = [];
 		var stream = todoist({
 			silent: true
 		});
@@ -34,7 +33,6 @@ describe('gulp-todoist streaming', function () {
 	});
 
 	it('should report fixme', function (cb) {
-		var files = [];
 		var stream = todoist({
 			silent: true
 		});
@@ -51,7 +49,6 @@ describe('gulp-todoist streaming', function () {
 	});
 
 	it('should report todo', function (cb) {
-		var files = [];
 		var stream = todoist({
 			silent: true
 		});
@@ -68,7 +65,6 @@ describe('gulp-todoist streaming', function () {
 	});
 
 	it('should report fixme & todo', function (cb) {
-		var files = [];
 		var stream = todoist({
 			silent: true
 		});
