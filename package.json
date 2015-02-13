@@ -1,7 +1,7 @@
 {
   "name": "gulp-todoist",
   "version": "0.0.2",
-  "description": "Outputs a report with total of TODOs and FIXMEs in your file/s.",
+  "description": "Outputs a report with total of TODOs and FIXMEs in your file/s",
   "license": "MIT",
   "repository": "oitozero/gulp-todoist",
   "author": {
